@@ -54,6 +54,7 @@ void loop(){
     digitalWrite(L6, LOW);
     digitalWrite(L7, LOW);
     digitalWrite(L8, LOW);
+    
   }
   else if (senorValue >= 1001 && senorValue <= 2000){ 
       digitalWrite(L1, HIGH);
